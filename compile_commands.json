@@ -1,0 +1,2124 @@
+[
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-O0",
+            "-fPIC",
+            "-Wall",
+            "-W",
+            "-Wstrict-prototypes",
+            "-Wwrite-strings",
+            "-g",
+            "-ggdb",
+            "async.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/hiredis",
+        "file": "async.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "lazyfree.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "lazyfree.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "cluster.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "cluster.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "ldebug.o",
+            "ldebug.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "ldebug.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-O0",
+            "-fPIC",
+            "-Wall",
+            "-W",
+            "-Wstrict-prototypes",
+            "-Wwrite-strings",
+            "-g",
+            "-ggdb",
+            "net.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/hiredis",
+        "file": "net.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lopcodes.o",
+            "lopcodes.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lopcodes.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "config.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "config.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "loadlib.o",
+            "loadlib.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "loadlib.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "crc64.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "crc64.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "defrag.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "defrag.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lcode.o",
+            "lcode.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lcode.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lua_struct.o",
+            "lua_struct.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lua_struct.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "lzf_d.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "lzf_d.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "redis-check-aof.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "redis-check-aof.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "syncio.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "syncio.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "rio.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "rio.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lstrlib.o",
+            "lstrlib.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lstrlib.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "loslib.o",
+            "loslib.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "loslib.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lvm.o",
+            "lvm.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lvm.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lbaselib.o",
+            "lbaselib.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lbaselib.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "siphash.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "siphash.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "ziplist.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "ziplist.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "release.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "release.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "liolib.o",
+            "liolib.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "liolib.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "debug.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "debug.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "llex.o",
+            "llex.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "llex.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "strbuf.o",
+            "strbuf.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "strbuf.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "t_string.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "t_string.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "blocked.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "blocked.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "pqsort.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "pqsort.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lundump.o",
+            "lundump.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lundump.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "multi.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "multi.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "redis-cli.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "redis-cli.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "t_set.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "t_set.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "geo.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "geo.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "bitops.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "bitops.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "linit.o",
+            "linit.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "linit.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lgc.o",
+            "lgc.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lgc.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "quicklist.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "quicklist.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "object.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "object.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lauxlib.o",
+            "lauxlib.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lauxlib.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "print.o",
+            "print.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "print.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "bio.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "bio.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lua.o",
+            "lua.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lua.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-O0",
+            "-fPIC",
+            "-Wall",
+            "-W",
+            "-Wstrict-prototypes",
+            "-Wwrite-strings",
+            "-g",
+            "-ggdb",
+            "sds.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/hiredis",
+        "file": "sds.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "db.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "db.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lstring.o",
+            "lstring.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lstring.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "ldo.o",
+            "ldo.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "ldo.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "module.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "module.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "sha1.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "sha1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lfunc.o",
+            "lfunc.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lfunc.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lua_cjson.o",
+            "lua_cjson.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lua_cjson.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "lzf_c.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "lzf_c.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lmathlib.o",
+            "lmathlib.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lmathlib.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lua_bit.o",
+            "lua_bit.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lua_bit.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "evict.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "evict.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "zipmap.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "zipmap.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "slowlog.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "slowlog.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "adlist.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "adlist.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "sds.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "sds.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "sentinel.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "sentinel.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lua_cmsgpack.o",
+            "lua_cmsgpack.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lua_cmsgpack.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "replication.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "replication.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "childinfo.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "childinfo.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "zmalloc.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "zmalloc.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "dict.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "dict.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "ltablib.o",
+            "ltablib.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "ltablib.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "rax.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "rax.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "memtest.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "memtest.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "latency.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "latency.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "util.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "util.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "setproctitle.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "setproctitle.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "ltm.o",
+            "ltm.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "ltm.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lobject.o",
+            "lobject.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lobject.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "anet.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "anet.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "server.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "server.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "notify.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "notify.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "fpconv.o",
+            "fpconv.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "fpconv.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "t_zset.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "t_zset.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "sort.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "sort.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "redis-check-rdb.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "redis-check-rdb.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "crc16.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "crc16.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lstate.o",
+            "lstate.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lstate.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "geohash_helper.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "geohash_helper.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-O0",
+            "-fPIC",
+            "-Wall",
+            "-W",
+            "-Wstrict-prototypes",
+            "-Wwrite-strings",
+            "-g",
+            "-ggdb",
+            "read.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/hiredis",
+        "file": "read.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "expire.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "expire.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "sparkline.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "sparkline.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lparser.o",
+            "lparser.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lparser.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "luac.o",
+            "luac.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "luac.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-Wall",
+            "-Os",
+            "-g",
+            "linenoise.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/linenoise",
+        "file": "linenoise.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "ldump.o",
+            "ldump.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "ldump.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "rand.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "rand.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lapi.o",
+            "lapi.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lapi.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "rdb.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "rdb.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "redis-benchmark.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "redis-benchmark.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lzio.o",
+            "lzio.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lzio.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "pubsub.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "pubsub.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "ae.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "ae.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "endianconv.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "endianconv.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "hyperloglog.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "hyperloglog.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "networking.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "networking.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "aof.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "aof.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-O0",
+            "-fPIC",
+            "-Wall",
+            "-W",
+            "-Wstrict-prototypes",
+            "-Wwrite-strings",
+            "-g",
+            "-ggdb",
+            "hiredis.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/hiredis",
+        "file": "hiredis.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "t_list.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "t_list.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "ldblib.o",
+            "ldblib.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "ldblib.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "scripting.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "scripting.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "t_hash.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "t_hash.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "lmem.o",
+            "lmem.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "lmem.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "intset.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "intset.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-std=c99",
+            "-pedantic",
+            "-DREDIS_STATIC=",
+            "-Wall",
+            "-W",
+            "-Wno-missing-field-initializers",
+            "-O0",
+            "-g",
+            "-ggdb",
+            "-I../deps/hiredis",
+            "-I../deps/linenoise",
+            "-I../deps/lua/src",
+            "geohash.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/src",
+        "file": "geohash.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "-DLUA_ANSI",
+            "-DENABLE_CJSON_GLOBAL",
+            "-DREDIS_STATIC=",
+            "-o",
+            "ltable.o",
+            "ltable.c"
+        ],
+        "directory": "/Users/xiaoxiaoxiang/clionProjects/redis-4.0.11/deps/lua/src",
+        "file": "ltable.c"
+    }
+]
